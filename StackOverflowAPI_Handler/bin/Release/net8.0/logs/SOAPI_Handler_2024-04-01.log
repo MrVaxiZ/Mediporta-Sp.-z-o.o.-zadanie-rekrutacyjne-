@@ -1,0 +1,327 @@
+2024-04-01 14:03:36.2490 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2024-04-01 14:03:36.3001 INFO Starting application 
+2024-04-01 14:03:36.3001 DEBUG Hosting starting 
+2024-04-01 14:03:36.3727 INFO Now listening on: http://localhost:5021 
+2024-04-01 14:03:36.3727 DEBUG Loaded hosting startup assembly StackOverflowAPI_Handler 
+2024-04-01 14:03:36.3727 DEBUG Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery 
+2024-04-01 14:03:36.3727 DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2024-04-01 14:03:36.3727 DEBUG Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2024-04-01 14:03:36.3955 INFO Application started. Press Ctrl+C to shut down. 
+2024-04-01 14:03:36.3955 INFO Hosting environment: Development 
+2024-04-01 14:03:36.3955 INFO Content root path: C:\Users\VaxiZ\source\repos\StackOverflowAPI_Handler\StackOverflowAPI_Handler 
+2024-04-01 14:03:36.3955 DEBUG Hosting started 
+2024-04-01 14:03:36.5540 DEBUG Connection id "0HN2I8F1E0NKE" accepted. 
+2024-04-01 14:03:36.5540 DEBUG Connection id "0HN2I8F1E0NKE" started. 
+2024-04-01 14:03:36.5540 DEBUG Connection id "0HN2I8F1E0NKF" accepted. 
+2024-04-01 14:03:36.5540 DEBUG Connection id "0HN2I8F1E0NKF" started. 
+2024-04-01 14:03:36.5807 DEBUG Connection id "0HN2I8F1E0NKF" received FIN. 
+2024-04-01 14:03:36.5807 DEBUG Connection id "0HN2I8F1E0NKE" received FIN. 
+2024-04-01 14:03:36.5807 DEBUG Connection id "0HN2I8F1E0NKE" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-04-01 14:03:36.5807 DEBUG Connection id "0HN2I8F1E0NKF" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-04-01 14:03:36.5847 DEBUG Connection id "0HN2I8F1E0NKE" disconnecting. 
+2024-04-01 14:03:36.5847 DEBUG Connection id "0HN2I8F1E0NKF" disconnecting. 
+2024-04-01 14:03:36.5847 DEBUG Connection id "0HN2I8F1E0NKF" stopped. 
+2024-04-01 14:03:36.5847 DEBUG Connection id "0HN2I8F1E0NKE" stopped. 
+2024-04-01 14:03:36.7621 DEBUG Connection id "0HN2I8F1E0NKG" accepted. 
+2024-04-01 14:03:36.7621 DEBUG Connection id "0HN2I8F1E0NKG" started. 
+2024-04-01 14:03:36.7621 DEBUG Connection id "0HN2I8F1E0NKH" accepted. 
+2024-04-01 14:03:36.7621 DEBUG Connection id "0HN2I8F1E0NKH" started. 
+2024-04-01 14:03:36.7969 INFO Request starting HTTP/1.1 GET http://localhost:5021/swagger/index.html - - - 
+2024-04-01 14:03:36.8444 DEBUG Wildcard detected, all requests with hosts will be allowed. 
+2024-04-01 14:03:36.8444 TRACE All hosts are allowed. 
+2024-04-01 14:03:36.8527 DEBUG No candidates found for the request path '/swagger/index.html' 
+2024-04-01 14:03:36.8527 DEBUG Request did not match any endpoints 
+2024-04-01 14:03:36.8944 DEBUG Response markup is scheduled to include Browser Link script injection. 
+2024-04-01 14:03:36.8944 DEBUG Response markup is scheduled to include browser refresh script injection. 
+2024-04-01 14:03:36.9025 DEBUG Response markup was updated to include Browser Link script injection. 
+2024-04-01 14:03:36.9025 DEBUG Response markup was updated to include browser refresh script injection. 
+2024-04-01 14:03:36.9025 DEBUG Connection id "0HN2I8F1E0NKG" completed keep alive response. 
+2024-04-01 14:03:36.9025 INFO Request finished HTTP/1.1 GET http://localhost:5021/swagger/index.html - 200 - text/html;charset=utf-8 109.0824ms 
+2024-04-01 14:03:36.9144 INFO Request starting HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - - - 
+2024-04-01 14:03:36.9144 DEBUG Connection id "0HN2I8F1E0NKG" completed keep alive response. 
+2024-04-01 14:03:36.9144 INFO Request finished HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - 200 13784 application/javascript;+charset=utf-8 0.9962ms 
+2024-04-01 14:03:37.1157 INFO Request starting HTTP/1.1 GET http://localhost:5021/_vs/browserLink - - - 
+2024-04-01 14:03:37.1315 DEBUG Connection id "0HN2I8F1E0NKG" completed keep alive response. 
+2024-04-01 14:03:37.1315 INFO Request finished HTTP/1.1 GET http://localhost:5021/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 15.9832ms 
+2024-04-01 14:03:37.1681 INFO Request starting HTTP/1.1 GET http://localhost:5021/swagger/v1/swagger.json - - - 
+2024-04-01 14:03:37.1681 TRACE All hosts are allowed. 
+2024-04-01 14:03:37.1681 DEBUG No candidates found for the request path '/swagger/v1/swagger.json' 
+2024-04-01 14:03:37.1681 DEBUG Request did not match any endpoints 
+2024-04-01 14:03:37.2091 DEBUG Connection id "0HN2I8F1E0NKG" completed keep alive response. 
+2024-04-01 14:03:37.2091 INFO Request finished HTTP/1.1 GET http://localhost:5021/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 41.1785ms 
+2024-04-01 14:16:46.3224 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2024-04-01 14:16:46.3517 INFO Starting application 
+2024-04-01 14:16:46.3517 DEBUG Hosting starting 
+2024-04-01 14:16:46.3705 ERROR Hosting failed to start System.IO.IOException: Failed to bind to address http://[::1]:5000: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+ ---> System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.DefaultAddressStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(ListenOptions[] listenOptions, AddressBindContext context, Func`2 useHttps, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2024-04-01 14:16:46.3705 ERROR Application start-up failed System.IO.IOException: Failed to bind to address http://[::1]:5000: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+ ---> System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.DefaultAddressStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(ListenOptions[] listenOptions, AddressBindContext context, Func`2 useHttps, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at Program.<Main>$(String[] args) in C:\Users\VaxiZ\source\repos\StackOverflowAPI_Handler\StackOverflowAPI_Handler\Classes\Program.cs:line 54
+2024-04-01 14:17:06.5698 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2024-04-01 14:17:06.5959 INFO Starting application 
+2024-04-01 14:17:06.5959 DEBUG Hosting starting 
+2024-04-01 14:17:06.6123 ERROR Hosting failed to start System.IO.IOException: Failed to bind to address http://[::1]:5000: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+ ---> System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.DefaultAddressStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(ListenOptions[] listenOptions, AddressBindContext context, Func`2 useHttps, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2024-04-01 14:17:06.6195 ERROR Application start-up failed System.IO.IOException: Failed to bind to address http://[::1]:5000: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+ ---> System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.DefaultAddressStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(ListenOptions[] listenOptions, AddressBindContext context, Func`2 useHttps, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at Program.<Main>$(String[] args) in C:\Users\VaxiZ\source\repos\StackOverflowAPI_Handler\StackOverflowAPI_Handler\Classes\Program.cs:line 54
+2024-04-01 14:17:12.9284 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2024-04-01 14:17:12.9551 INFO Starting application 
+2024-04-01 14:17:12.9551 DEBUG Hosting starting 
+2024-04-01 14:17:12.9714 ERROR Hosting failed to start System.IO.IOException: Failed to bind to address http://[::1]:5000: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+ ---> System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.DefaultAddressStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(ListenOptions[] listenOptions, AddressBindContext context, Func`2 useHttps, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2024-04-01 14:17:12.9786 ERROR Application start-up failed System.IO.IOException: Failed to bind to address http://[::1]:5000: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+ ---> System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.DefaultAddressStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(ListenOptions[] listenOptions, AddressBindContext context, Func`2 useHttps, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at Program.<Main>$(String[] args) in C:\Users\VaxiZ\source\repos\StackOverflowAPI_Handler\StackOverflowAPI_Handler\Classes\Program.cs:line 54
+2024-04-01 15:08:41.2379 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2024-04-01 15:08:41.2772 INFO Starting application 
+2024-04-01 15:08:41.2772 DEBUG Hosting starting 
+2024-04-01 15:08:41.3519 INFO Now listening on: http://localhost:5021 
+2024-04-01 15:08:41.3519 DEBUG Loaded hosting startup assembly StackOverflowAPI_Handler 
+2024-04-01 15:08:41.3519 DEBUG Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery 
+2024-04-01 15:08:41.3519 DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2024-04-01 15:08:41.3519 DEBUG Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2024-04-01 15:08:41.3734 INFO Application started. Press Ctrl+C to shut down. 
+2024-04-01 15:08:41.3734 INFO Hosting environment: Development 
+2024-04-01 15:08:41.3734 INFO Content root path: C:\Users\VaxiZ\source\repos\StackOverflowAPI_Handler\StackOverflowAPI_Handler 
+2024-04-01 15:08:41.3734 DEBUG Hosting started 
+2024-04-01 15:08:41.4548 DEBUG Connection id "0HN2I9JD61R9G" accepted. 
+2024-04-01 15:08:41.4548 DEBUG Connection id "0HN2I9JD61R9F" accepted. 
+2024-04-01 15:08:41.4548 DEBUG Connection id "0HN2I9JD61R9G" started. 
+2024-04-01 15:08:41.4548 DEBUG Connection id "0HN2I9JD61R9F" started. 
+2024-04-01 15:08:41.4812 DEBUG Connection id "0HN2I9JD61R9G" received FIN. 
+2024-04-01 15:08:41.4812 DEBUG Connection id "0HN2I9JD61R9F" received FIN. 
+2024-04-01 15:08:41.4812 DEBUG Connection id "0HN2I9JD61R9G" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-04-01 15:08:41.4812 DEBUG Connection id "0HN2I9JD61R9F" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-04-01 15:08:41.4812 DEBUG Connection id "0HN2I9JD61R9G" disconnecting. 
+2024-04-01 15:08:41.4812 DEBUG Connection id "0HN2I9JD61R9F" disconnecting. 
+2024-04-01 15:08:41.4812 DEBUG Connection id "0HN2I9JD61R9G" stopped. 
+2024-04-01 15:08:41.4812 DEBUG Connection id "0HN2I9JD61R9F" stopped. 
+2024-04-01 15:08:41.6052 DEBUG Connection id "0HN2I9JD61R9H" accepted. 
+2024-04-01 15:08:41.6052 DEBUG Connection id "0HN2I9JD61R9H" started. 
+2024-04-01 15:08:41.6052 DEBUG Connection id "0HN2I9JD61R9I" accepted. 
+2024-04-01 15:08:41.6052 DEBUG Connection id "0HN2I9JD61R9I" started. 
+2024-04-01 15:08:41.6428 INFO Request starting HTTP/1.1 GET http://localhost:5021/swagger/index.html - - - 
+2024-04-01 15:08:41.6970 DEBUG Wildcard detected, all requests with hosts will be allowed. 
+2024-04-01 15:08:41.6970 TRACE All hosts are allowed. 
+2024-04-01 15:08:41.6970 DEBUG No candidates found for the request path '/swagger/index.html' 
+2024-04-01 15:08:41.6970 DEBUG Request did not match any endpoints 
+2024-04-01 15:08:41.7439 DEBUG Response markup is scheduled to include Browser Link script injection. 
+2024-04-01 15:08:41.7439 DEBUG Response markup is scheduled to include browser refresh script injection. 
+2024-04-01 15:08:41.7439 DEBUG Response markup was updated to include Browser Link script injection. 
+2024-04-01 15:08:41.7439 DEBUG Response markup was updated to include browser refresh script injection. 
+2024-04-01 15:08:41.7439 DEBUG Connection id "0HN2I9JD61R9H" completed keep alive response. 
+2024-04-01 15:08:41.7439 INFO Request finished HTTP/1.1 GET http://localhost:5021/swagger/index.html - 200 - text/html;charset=utf-8 112.7238ms 
+2024-04-01 15:08:41.7595 INFO Request starting HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - - - 
+2024-04-01 15:08:41.7595 DEBUG Connection id "0HN2I9JD61R9H" completed keep alive response. 
+2024-04-01 15:08:41.7595 INFO Request finished HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - 200 13784 application/javascript;+charset=utf-8 0.7864ms 
+2024-04-01 15:08:41.9660 INFO Request starting HTTP/1.1 GET http://localhost:5021/_vs/browserLink - - - 
+2024-04-01 15:08:41.9808 DEBUG Connection id "0HN2I9JD61R9H" completed keep alive response. 
+2024-04-01 15:08:41.9808 INFO Request finished HTTP/1.1 GET http://localhost:5021/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 14.9559ms 
+2024-04-01 15:08:42.0208 INFO Request starting HTTP/1.1 GET http://localhost:5021/swagger/v1/swagger.json - - - 
+2024-04-01 15:08:42.0208 TRACE All hosts are allowed. 
+2024-04-01 15:08:42.0208 DEBUG No candidates found for the request path '/swagger/v1/swagger.json' 
+2024-04-01 15:08:42.0208 DEBUG Request did not match any endpoints 
+2024-04-01 15:08:42.0612 DEBUG Connection id "0HN2I9JD61R9H" completed keep alive response. 
+2024-04-01 15:08:42.0612 INFO Request finished HTTP/1.1 GET http://localhost:5021/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 40.8361ms 
+2024-04-01 19:39:07.6463 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2024-04-01 19:39:07.6875 INFO Starting application 
+2024-04-01 19:39:07.6875 DEBUG Hosting starting 
+2024-04-01 19:39:07.7553 INFO Now listening on: http://localhost:5021 
+2024-04-01 19:39:07.7553 DEBUG Loaded hosting startup assembly StackOverflowAPI_Handler 
+2024-04-01 19:39:07.7553 DEBUG Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery 
+2024-04-01 19:39:07.7553 DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2024-04-01 19:39:07.7553 DEBUG Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2024-04-01 19:39:07.7753 INFO Application started. Press Ctrl+C to shut down. 
+2024-04-01 19:39:07.7753 INFO Hosting environment: Development 
+2024-04-01 19:39:07.7753 INFO Content root path: C:\Users\VaxiZ\source\repos\StackOverflowAPI_Handler\StackOverflowAPI_Handler 
+2024-04-01 19:39:07.7753 DEBUG Hosting started 
+2024-04-01 19:39:07.8212 DEBUG Connection id "0HN2IEAH0NSHL" accepted. 
+2024-04-01 19:39:07.8212 DEBUG Connection id "0HN2IEAH0NSHK" accepted. 
+2024-04-01 19:39:07.8212 DEBUG Connection id "0HN2IEAH0NSHK" started. 
+2024-04-01 19:39:07.8212 DEBUG Connection id "0HN2IEAH0NSHL" started. 
+2024-04-01 19:39:08.0206 DEBUG Connection id "0HN2IEAH0NSHK" reset. 
+2024-04-01 19:39:08.0206 DEBUG Connection id "0HN2IEAH0NSHL" reset. 
+2024-04-01 19:39:08.0247 DEBUG Connection id "0HN2IEAH0NSHL" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-04-01 19:39:08.0247 DEBUG Connection id "0HN2IEAH0NSHK" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-04-01 19:39:08.0247 DEBUG Connection id "0HN2IEAH0NSHL" disconnecting. 
+2024-04-01 19:39:08.0247 DEBUG Connection id "0HN2IEAH0NSHK" disconnecting. 
+2024-04-01 19:39:08.0247 DEBUG Connection id "0HN2IEAH0NSHL" stopped. 
+2024-04-01 19:39:08.0247 DEBUG Connection id "0HN2IEAH0NSHK" stopped. 
+2024-04-01 19:39:08.4934 DEBUG Connection id "0HN2IEAH0NSHM" accepted. 
+2024-04-01 19:39:08.4934 DEBUG Connection id "0HN2IEAH0NSHM" started. 
+2024-04-01 19:39:08.4934 DEBUG Connection id "0HN2IEAH0NSHN" accepted. 
+2024-04-01 19:39:08.4934 DEBUG Connection id "0HN2IEAH0NSHN" started. 
+2024-04-01 19:39:08.5281 INFO Request starting HTTP/1.1 GET http://localhost:5021/swagger/index.html - - - 
+2024-04-01 19:39:08.5990 DEBUG Wildcard detected, all requests with hosts will be allowed. 
+2024-04-01 19:39:08.5990 TRACE All hosts are allowed. 
+2024-04-01 19:39:08.6072 DEBUG No candidates found for the request path '/swagger/index.html' 
+2024-04-01 19:39:08.6072 DEBUG Request did not match any endpoints 
+2024-04-01 19:39:08.6476 DEBUG Response markup is scheduled to include Browser Link script injection. 
+2024-04-01 19:39:08.6476 DEBUG Response markup is scheduled to include browser refresh script injection. 
+2024-04-01 19:39:08.6476 DEBUG Response markup was updated to include Browser Link script injection. 
+2024-04-01 19:39:08.6476 DEBUG Response markup was updated to include browser refresh script injection. 
+2024-04-01 19:39:08.6476 DEBUG Connection id "0HN2IEAH0NSHM" completed keep alive response. 
+2024-04-01 19:39:08.6476 INFO Request finished HTTP/1.1 GET http://localhost:5021/swagger/index.html - 200 - text/html;charset=utf-8 132.8901ms 
+2024-04-01 19:39:08.6776 INFO Request starting HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - - - 
+2024-04-01 19:39:08.6791 DEBUG Connection id "0HN2IEAH0NSHM" completed keep alive response. 
+2024-04-01 19:39:08.6791 INFO Request finished HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - 200 13784 application/javascript;+charset=utf-8 2.0816ms 
+2024-04-01 19:39:08.8833 INFO Request starting HTTP/1.1 GET http://localhost:5021/_vs/browserLink - - - 
+2024-04-01 19:39:08.9334 DEBUG Connection id "0HN2IEAH0NSHM" completed keep alive response. 
+2024-04-01 19:39:08.9334 INFO Request finished HTTP/1.1 GET http://localhost:5021/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 50.3411ms 
+2024-04-01 19:39:08.9804 INFO Request starting HTTP/1.1 GET http://localhost:5021/swagger/v1/swagger.json - - - 
+2024-04-01 19:39:08.9804 TRACE All hosts are allowed. 
+2024-04-01 19:39:08.9804 DEBUG No candidates found for the request path '/swagger/v1/swagger.json' 
+2024-04-01 19:39:08.9804 DEBUG Request did not match any endpoints 
+2024-04-01 19:39:09.0198 DEBUG Connection id "0HN2IEAH0NSHM" completed keep alive response. 
+2024-04-01 19:39:09.0198 INFO Request finished HTTP/1.1 GET http://localhost:5021/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 39.7005ms 

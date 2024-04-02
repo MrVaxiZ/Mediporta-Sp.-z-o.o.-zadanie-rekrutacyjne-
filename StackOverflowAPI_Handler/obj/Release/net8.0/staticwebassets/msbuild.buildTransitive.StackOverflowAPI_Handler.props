@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\StackOverflowAPI_Handler.props" />
+</Project>

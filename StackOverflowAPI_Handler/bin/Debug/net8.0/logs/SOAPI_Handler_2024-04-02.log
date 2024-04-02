@@ -1,0 +1,194 @@
+2024-04-02 14:55:44.8137 DEBUG An 'IServiceProvider' was created for internal use by Entity Framework. 
+2024-04-02 14:55:45.0110 DEBUG Entity Framework Core 8.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:8.0.3' with options: None 
+2024-04-02 14:55:45.2614 DEBUG Creating DbConnection. 
+2024-04-02 14:55:45.2614 DEBUG Created DbConnection. (3ms). 
+2024-04-02 14:55:45.2614 DEBUG Opening connection to database 'main' on server 'tags.db'. 
+2024-04-02 14:55:45.2762 DEBUG Opened connection to database 'main' on server 'C:\Users\VaxiZ\source\repos\StackOverflowAPI_Handler\StackOverflowAPI_Handler\tags.db'. 
+2024-04-02 14:55:45.2762 DEBUG Disposing connection to database 'main' on server 'tags.db'. 
+2024-04-02 14:55:45.2762 DEBUG Disposed connection to database 'main' on server 'tags.db' (0ms). 
+2024-04-02 14:55:45.2762 DEBUG Creating DbCommand for 'ExecuteScalar'. 
+2024-04-02 14:55:45.2762 DEBUG Creating DbConnection. 
+2024-04-02 14:55:45.2762 DEBUG Created DbConnection. (0ms). 
+2024-04-02 14:55:45.2762 DEBUG Created DbCommand for 'ExecuteScalar' (1ms). 
+2024-04-02 14:55:45.2762 DEBUG Initialized DbCommand for 'ExecuteScalar' (3ms). 
+2024-04-02 14:55:45.2762 DEBUG Opening connection to database 'main' on server 'tags.db'. 
+2024-04-02 14:55:45.2762 DEBUG Opened connection to database 'main' on server 'C:\Users\VaxiZ\source\repos\StackOverflowAPI_Handler\StackOverflowAPI_Handler\tags.db'. 
+2024-04-02 14:55:45.2879 DEBUG Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table'; 
+2024-04-02 14:55:45.2879 INFO Executed DbCommand (8ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table'; 
+2024-04-02 14:55:45.2879 DEBUG Closing connection to database 'main' on server 'C:\Users\VaxiZ\source\repos\StackOverflowAPI_Handler\StackOverflowAPI_Handler\tags.db'. 
+2024-04-02 14:55:45.2879 DEBUG Closed connection to database 'main' on server 'tags.db' (0ms). 
+2024-04-02 14:55:45.3050 DEBUG Opening connection to database 'main' on server 'tags.db'. 
+2024-04-02 14:55:45.3050 DEBUG Opened connection to database 'main' on server 'C:\Users\VaxiZ\source\repos\StackOverflowAPI_Handler\StackOverflowAPI_Handler\tags.db'. 
+2024-04-02 14:55:45.3050 DEBUG Creating DbCommand for 'ExecuteReader'. 
+2024-04-02 14:55:45.3050 DEBUG Created DbCommand for 'ExecuteReader' (0ms). 
+2024-04-02 14:55:45.3050 DEBUG Initialized DbCommand for 'ExecuteReader' (0ms). 
+2024-04-02 14:55:45.3050 DEBUG Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId"; 
+2024-04-02 14:55:45.3050 INFO Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId"; 
+2024-04-02 14:55:45.3050 DEBUG Closing data reader to 'main' on server 'C:\Users\VaxiZ\source\repos\StackOverflowAPI_Handler\StackOverflowAPI_Handler\tags.db'. 
+2024-04-02 14:55:45.3050 DEBUG A data reader for 'main' on server 'C:\Users\VaxiZ\source\repos\StackOverflowAPI_Handler\StackOverflowAPI_Handler\tags.db' is being disposed after spending 1ms reading results. 
+2024-04-02 14:55:45.3050 DEBUG Closing connection to database 'main' on server 'C:\Users\VaxiZ\source\repos\StackOverflowAPI_Handler\StackOverflowAPI_Handler\tags.db'. 
+2024-04-02 14:55:45.3050 DEBUG Closed connection to database 'main' on server 'tags.db' (0ms). 
+2024-04-02 14:55:45.3050 DEBUG 'ApplicationDbContext' disposed. 
+2024-04-02 14:55:45.3050 DEBUG Disposing connection to database 'main' on server 'tags.db'. 
+2024-04-02 14:55:45.3050 DEBUG Disposed connection to database 'main' on server 'tags.db' (0ms). 
+2024-04-02 14:56:01.9026 DEBUG An 'IServiceProvider' was created for internal use by Entity Framework. 
+2024-04-02 14:56:02.0718 DEBUG Entity Framework Core 8.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:8.0.3' with options: None 
+2024-04-02 14:56:02.0718 DEBUG Creating DbConnection. 
+2024-04-02 14:56:02.0718 DEBUG Created DbConnection. (3ms). 
+2024-04-02 14:56:02.0718 DEBUG 'ApplicationDbContext' disposed. 
+2024-04-02 14:56:02.0718 DEBUG Disposing connection to database 'main' on server 'tags.db'. 
+2024-04-02 14:56:02.0718 DEBUG Disposed connection to database 'main' on server 'tags.db' (1ms). 
+2024-04-02 14:56:03.0723 DEBUG Entity Framework Core 8.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:8.0.3' with options: None 
+2024-04-02 14:56:03.0723 DEBUG Creating DbConnection. 
+2024-04-02 14:56:03.0723 DEBUG Created DbConnection. (0ms). 
+2024-04-02 14:56:03.0723 DEBUG Creating DbConnection. 
+2024-04-02 14:56:03.0723 DEBUG Created DbConnection. (0ms). 
+2024-04-02 14:56:03.0723 DEBUG Opening connection to database 'main' on server 'tags.db'. 
+2024-04-02 14:56:03.0723 DEBUG Opened connection to database 'main' on server 'C:\Users\VaxiZ\source\repos\StackOverflowAPI_Handler\StackOverflowAPI_Handler\tags.db'. 
+2024-04-02 14:56:03.0723 DEBUG Disposing connection to database 'main' on server 'tags.db'. 
+2024-04-02 14:56:03.0723 DEBUG Disposed connection to database 'main' on server 'tags.db' (0ms). 
+2024-04-02 14:56:03.0723 DEBUG Opening connection to database 'main' on server 'tags.db'. 
+2024-04-02 14:56:03.0723 DEBUG Opened connection to database 'main' on server 'C:\Users\VaxiZ\source\repos\StackOverflowAPI_Handler\StackOverflowAPI_Handler\tags.db'. 
+2024-04-02 14:56:03.0723 DEBUG Closing connection to database 'main' on server 'C:\Users\VaxiZ\source\repos\StackOverflowAPI_Handler\StackOverflowAPI_Handler\tags.db'. 
+2024-04-02 14:56:03.0723 DEBUG Closed connection to database 'main' on server 'tags.db' (0ms). 
+2024-04-02 14:56:03.0723 DEBUG 'ApplicationDbContext' disposed. 
+2024-04-02 14:56:03.0723 DEBUG Disposing connection to database 'main' on server 'tags.db'. 
+2024-04-02 14:56:03.0723 DEBUG Disposed connection to database 'main' on server 'tags.db' (0ms). 
+2024-04-02 14:56:07.0651 DEBUG An 'IServiceProvider' was created for internal use by Entity Framework. 
+2024-04-02 14:56:07.2379 DEBUG Entity Framework Core 8.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:8.0.3' with options: None 
+2024-04-02 14:56:07.4027 DEBUG Creating DbConnection. 
+2024-04-02 14:56:07.4027 DEBUG Created DbConnection. (2ms). 
+2024-04-02 14:56:07.4027 DEBUG Opening connection to database 'main' on server 'tags.db'. 
+2024-04-02 14:56:07.4027 DEBUG An error occurred using the connection to database 'main' on server 'tags.db'. 
+2024-04-02 14:56:07.4027 DEBUG Disposing connection to database 'main' on server 'tags.db'. 
+2024-04-02 14:56:07.4129 DEBUG Disposed connection to database 'main' on server 'tags.db' (0ms). 
+2024-04-02 14:56:07.4129 DEBUG 'ApplicationDbContext' disposed. 
+2024-04-02 14:56:16.3285 DEBUG An 'IServiceProvider' was created for internal use by Entity Framework. 
+2024-04-02 14:56:16.4997 DEBUG Entity Framework Core 8.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:8.0.3' with options: None 
+2024-04-02 14:56:16.7021 DEBUG 'ApplicationDbContext' disposed. 
+2024-04-02 14:56:24.1555 DEBUG An 'IServiceProvider' was created for internal use by Entity Framework. 
+2024-04-02 14:56:24.3305 DEBUG Entity Framework Core 8.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:8.0.3' with options: None 
+2024-04-02 14:56:24.3369 DEBUG Creating DbConnection. 
+2024-04-02 14:56:24.3369 DEBUG Created DbConnection. (3ms). 
+2024-04-02 14:56:24.3369 DEBUG Migrating using database 'main' on server 'tags.db'. 
+2024-04-02 14:56:24.3369 DEBUG Creating DbConnection. 
+2024-04-02 14:56:24.3369 DEBUG Created DbConnection. (0ms). 
+2024-04-02 14:56:24.3369 DEBUG Opening connection to database 'main' on server 'tags.db'. 
+2024-04-02 14:56:24.3369 DEBUG An error occurred using the connection to database 'main' on server 'tags.db'. 
+2024-04-02 14:56:24.3369 DEBUG Disposing connection to database 'main' on server 'tags.db'. 
+2024-04-02 14:56:24.3369 DEBUG Disposed connection to database 'main' on server 'tags.db' (0ms). 
+2024-04-02 14:56:24.3369 DEBUG Creating DbConnection. 
+2024-04-02 14:56:24.3369 DEBUG Created DbConnection. (0ms). 
+2024-04-02 14:56:24.3369 DEBUG Opening connection to database 'main' on server 'tags.db'. 
+2024-04-02 14:56:24.3369 DEBUG An error occurred using the connection to database 'main' on server 'tags.db'. 
+2024-04-02 14:56:24.3369 DEBUG Disposing connection to database 'main' on server 'tags.db'. 
+2024-04-02 14:56:24.3369 DEBUG Disposed connection to database 'main' on server 'tags.db' (0ms). 
+2024-04-02 14:56:24.3369 DEBUG Opening connection to database 'main' on server 'tags.db'. 
+2024-04-02 14:56:24.3515 DEBUG Opened connection to database 'main' on server 'C:\Users\VaxiZ\source\repos\StackOverflowAPI_Handler\StackOverflowAPI_Handler\tags.db'. 
+2024-04-02 14:56:24.3515 DEBUG Creating DbCommand for 'ExecuteNonQuery'. 
+2024-04-02 14:56:24.3515 DEBUG Created DbCommand for 'ExecuteNonQuery' (1ms). 
+2024-04-02 14:56:24.3515 DEBUG Initialized DbCommand for 'ExecuteNonQuery' (2ms). 
+2024-04-02 14:56:24.3515 DEBUG Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA journal_mode = 'wal'; 
+2024-04-02 14:56:24.3671 INFO Executed DbCommand (8ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA journal_mode = 'wal'; 
+2024-04-02 14:56:24.3671 DEBUG Closing connection to database 'main' on server 'C:\Users\VaxiZ\source\repos\StackOverflowAPI_Handler\StackOverflowAPI_Handler\tags.db'. 
+2024-04-02 14:56:24.3671 DEBUG Closed connection to database 'main' on server 'tags.db' (0ms). 
+2024-04-02 14:56:24.3986 DEBUG Creating DbCommand for 'ExecuteNonQuery'. 
+2024-04-02 14:56:24.3986 DEBUG Created DbCommand for 'ExecuteNonQuery' (0ms). 
+2024-04-02 14:56:24.3986 DEBUG Initialized DbCommand for 'ExecuteNonQuery' (0ms). 
+2024-04-02 14:56:24.3986 DEBUG Opening connection to database 'main' on server 'tags.db'. 
+2024-04-02 14:56:24.3986 DEBUG Opened connection to database 'main' on server 'C:\Users\VaxiZ\source\repos\StackOverflowAPI_Handler\StackOverflowAPI_Handler\tags.db'. 
+2024-04-02 14:56:24.3986 DEBUG Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE "__EFMigrationsHistory" (
+    "MigrationId" TEXT NOT NULL CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY,
+    "ProductVersion" TEXT NOT NULL
+); 
+2024-04-02 14:56:24.3986 INFO Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE "__EFMigrationsHistory" (
+    "MigrationId" TEXT NOT NULL CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY,
+    "ProductVersion" TEXT NOT NULL
+); 
+2024-04-02 14:56:24.3986 DEBUG Closing connection to database 'main' on server 'C:\Users\VaxiZ\source\repos\StackOverflowAPI_Handler\StackOverflowAPI_Handler\tags.db'. 
+2024-04-02 14:56:24.3986 DEBUG Closed connection to database 'main' on server 'tags.db' (0ms). 
+2024-04-02 14:56:24.3986 DEBUG Creating DbConnection. 
+2024-04-02 14:56:24.3986 DEBUG Created DbConnection. (0ms). 
+2024-04-02 14:56:24.3986 DEBUG Opening connection to database 'main' on server 'tags.db'. 
+2024-04-02 14:56:24.3986 DEBUG Opened connection to database 'main' on server 'C:\Users\VaxiZ\source\repos\StackOverflowAPI_Handler\StackOverflowAPI_Handler\tags.db'. 
+2024-04-02 14:56:24.3986 DEBUG Disposing connection to database 'main' on server 'tags.db'. 
+2024-04-02 14:56:24.3986 DEBUG Disposed connection to database 'main' on server 'tags.db' (0ms). 
+2024-04-02 14:56:24.3986 DEBUG Creating DbCommand for 'ExecuteScalar'. 
+2024-04-02 14:56:24.3986 DEBUG Created DbCommand for 'ExecuteScalar' (0ms). 
+2024-04-02 14:56:24.3986 DEBUG Initialized DbCommand for 'ExecuteScalar' (0ms). 
+2024-04-02 14:56:24.3986 DEBUG Opening connection to database 'main' on server 'tags.db'. 
+2024-04-02 14:56:24.3986 DEBUG Opened connection to database 'main' on server 'C:\Users\VaxiZ\source\repos\StackOverflowAPI_Handler\StackOverflowAPI_Handler\tags.db'. 
+2024-04-02 14:56:24.3986 DEBUG Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table'; 
+2024-04-02 14:56:24.3986 INFO Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table'; 
+2024-04-02 14:56:24.3986 DEBUG Closing connection to database 'main' on server 'C:\Users\VaxiZ\source\repos\StackOverflowAPI_Handler\StackOverflowAPI_Handler\tags.db'. 
+2024-04-02 14:56:24.3986 DEBUG Closed connection to database 'main' on server 'tags.db' (0ms). 
+2024-04-02 14:56:24.3986 DEBUG Opening connection to database 'main' on server 'tags.db'. 
+2024-04-02 14:56:24.3986 DEBUG Opened connection to database 'main' on server 'C:\Users\VaxiZ\source\repos\StackOverflowAPI_Handler\StackOverflowAPI_Handler\tags.db'. 
+2024-04-02 14:56:24.3986 DEBUG Creating DbCommand for 'ExecuteReader'. 
+2024-04-02 14:56:24.3986 DEBUG Created DbCommand for 'ExecuteReader' (0ms). 
+2024-04-02 14:56:24.3986 DEBUG Initialized DbCommand for 'ExecuteReader' (0ms). 
+2024-04-02 14:56:24.3986 DEBUG Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId"; 
+2024-04-02 14:56:24.3986 INFO Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId"; 
+2024-04-02 14:56:24.3986 DEBUG Closing data reader to 'main' on server 'C:\Users\VaxiZ\source\repos\StackOverflowAPI_Handler\StackOverflowAPI_Handler\tags.db'. 
+2024-04-02 14:56:24.3986 DEBUG A data reader for 'main' on server 'C:\Users\VaxiZ\source\repos\StackOverflowAPI_Handler\StackOverflowAPI_Handler\tags.db' is being disposed after spending 0ms reading results. 
+2024-04-02 14:56:24.3986 DEBUG Closing connection to database 'main' on server 'C:\Users\VaxiZ\source\repos\StackOverflowAPI_Handler\StackOverflowAPI_Handler\tags.db'. 
+2024-04-02 14:56:24.3986 DEBUG Closed connection to database 'main' on server 'tags.db' (0ms). 
+2024-04-02 14:56:24.3986 INFO Applying migration '20240402125616_Tags'. 
+2024-04-02 14:56:24.4208 DEBUG Opening connection to database 'main' on server 'tags.db'. 
+2024-04-02 14:56:24.4208 DEBUG Opened connection to database 'main' on server 'C:\Users\VaxiZ\source\repos\StackOverflowAPI_Handler\StackOverflowAPI_Handler\tags.db'. 
+2024-04-02 14:56:24.4208 DEBUG Beginning transaction with isolation level 'Unspecified'. 
+2024-04-02 14:56:24.4208 DEBUG Began transaction with isolation level 'Serializable'. 
+2024-04-02 14:56:24.4208 DEBUG Creating DbCommand for 'ExecuteNonQuery'. 
+2024-04-02 14:56:24.4208 DEBUG Created DbCommand for 'ExecuteNonQuery' (0ms). 
+2024-04-02 14:56:24.4208 DEBUG Initialized DbCommand for 'ExecuteNonQuery' (0ms). 
+2024-04-02 14:56:24.4208 DEBUG Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE "Tags" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_Tags" PRIMARY KEY AUTOINCREMENT,
+    "Count" INTEGER NOT NULL,
+    "ProcentItHasInSumOfAllTagsCount" REAL NOT NULL,
+    "Name" TEXT NULL
+); 
+2024-04-02 14:56:24.4208 INFO Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE "Tags" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_Tags" PRIMARY KEY AUTOINCREMENT,
+    "Count" INTEGER NOT NULL,
+    "ProcentItHasInSumOfAllTagsCount" REAL NOT NULL,
+    "Name" TEXT NULL
+); 
+2024-04-02 14:56:24.4208 DEBUG Creating DbCommand for 'ExecuteNonQuery'. 
+2024-04-02 14:56:24.4208 DEBUG Created DbCommand for 'ExecuteNonQuery' (0ms). 
+2024-04-02 14:56:24.4208 DEBUG Initialized DbCommand for 'ExecuteNonQuery' (0ms). 
+2024-04-02 14:56:24.4208 DEBUG Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20240402125616_Tags', '8.0.3'); 
+2024-04-02 14:56:24.4208 INFO Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20240402125616_Tags', '8.0.3'); 
+2024-04-02 14:56:24.4208 DEBUG Committing transaction. 
+2024-04-02 14:56:24.4208 DEBUG Committed transaction. 
+2024-04-02 14:56:24.4208 DEBUG Disposing transaction. 
+2024-04-02 14:56:24.4208 DEBUG Closing connection to database 'main' on server 'C:\Users\VaxiZ\source\repos\StackOverflowAPI_Handler\StackOverflowAPI_Handler\tags.db'. 
+2024-04-02 14:56:24.4208 DEBUG Closed connection to database 'main' on server 'tags.db' (0ms). 
+2024-04-02 14:56:24.4208 DEBUG 'ApplicationDbContext' disposed. 
+2024-04-02 14:56:24.4208 DEBUG Disposing connection to database 'main' on server 'tags.db'. 
+2024-04-02 14:56:24.4208 DEBUG Disposed connection to database 'main' on server 'tags.db' (0ms). 

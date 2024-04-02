@@ -1,0 +1,190 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\VaxiZ\\source\\repos\\StackOverflowAPI_Handler\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3D12DAB7-D943-41F7-B90F-C590D186FDDA}|StackOverflowAPI_Handler\\StackOverflowAPI_Handler.csproj|c:\\users\\vaxiz\\source\\repos\\stackoverflowapi_handler\\stackoverflowapi_handler\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3D12DAB7-D943-41F7-B90F-C590D186FDDA}|StackOverflowAPI_Handler\\StackOverflowAPI_Handler.csproj|solutionrelative:stackoverflowapi_handler\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D12DAB7-D943-41F7-B90F-C590D186FDDA}|StackOverflowAPI_Handler\\StackOverflowAPI_Handler.csproj|c:\\users\\vaxiz\\source\\repos\\stackoverflowapi_handler\\stackoverflowapi_handler\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D12DAB7-D943-41F7-B90F-C590D186FDDA}|StackOverflowAPI_Handler\\StackOverflowAPI_Handler.csproj|solutionrelative:stackoverflowapi_handler\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D12DAB7-D943-41F7-B90F-C590D186FDDA}|StackOverflowAPI_Handler\\StackOverflowAPI_Handler.csproj|c:\\users\\vaxiz\\source\\repos\\stackoverflowapi_handler\\stackoverflowapi_handler\\controllers\\tagscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D12DAB7-D943-41F7-B90F-C590D186FDDA}|StackOverflowAPI_Handler\\StackOverflowAPI_Handler.csproj|solutionrelative:stackoverflowapi_handler\\controllers\\tagscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D12DAB7-D943-41F7-B90F-C590D186FDDA}|StackOverflowAPI_Handler\\StackOverflowAPI_Handler.csproj|c:\\users\\vaxiz\\source\\repos\\stackoverflowapi_handler\\stackoverflowapi_handler\\classes\\validators.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D12DAB7-D943-41F7-B90F-C590D186FDDA}|StackOverflowAPI_Handler\\StackOverflowAPI_Handler.csproj|solutionrelative:stackoverflowapi_handler\\classes\\validators.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D12DAB7-D943-41F7-B90F-C590D186FDDA}|StackOverflowAPI_Handler\\StackOverflowAPI_Handler.csproj|c:\\users\\vaxiz\\source\\repos\\stackoverflowapi_handler\\stackoverflowapi_handler\\classes\\stackoverflowservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D12DAB7-D943-41F7-B90F-C590D186FDDA}|StackOverflowAPI_Handler\\StackOverflowAPI_Handler.csproj|solutionrelative:stackoverflowapi_handler\\classes\\stackoverflowservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D12DAB7-D943-41F7-B90F-C590D186FDDA}|StackOverflowAPI_Handler\\StackOverflowAPI_Handler.csproj|c:\\users\\vaxiz\\source\\repos\\stackoverflowapi_handler\\stackoverflowapi_handler\\classes\\flags.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D12DAB7-D943-41F7-B90F-C590D186FDDA}|StackOverflowAPI_Handler\\StackOverflowAPI_Handler.csproj|solutionrelative:stackoverflowapi_handler\\classes\\flags.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D12DAB7-D943-41F7-B90F-C590D186FDDA}|StackOverflowAPI_Handler\\StackOverflowAPI_Handler.csproj|c:\\users\\vaxiz\\source\\repos\\stackoverflowapi_handler\\stackoverflowapi_handler\\properties\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D12DAB7-D943-41F7-B90F-C590D186FDDA}|StackOverflowAPI_Handler\\StackOverflowAPI_Handler.csproj|solutionrelative:stackoverflowapi_handler\\properties\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D12DAB7-D943-41F7-B90F-C590D186FDDA}|StackOverflowAPI_Handler\\StackOverflowAPI_Handler.csproj|c:\\users\\vaxiz\\source\\repos\\stackoverflowapi_handler\\stackoverflowapi_handler\\classes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D12DAB7-D943-41F7-B90F-C590D186FDDA}|StackOverflowAPI_Handler\\StackOverflowAPI_Handler.csproj|solutionrelative:stackoverflowapi_handler\\classes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0AE536C-B416-4342-8F1D-25861A0AD847}|Tests_StackOverflowAPI_Handler\\Tests_StackOverflowAPI_Handler.csproj|c:\\users\\vaxiz\\source\\repos\\stackoverflowapi_handler\\tests_stackoverflowapi_handler\\tests_stackoverflowservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0AE536C-B416-4342-8F1D-25861A0AD847}|Tests_StackOverflowAPI_Handler\\Tests_StackOverflowAPI_Handler.csproj|solutionrelative:tests_stackoverflowapi_handler\\tests_stackoverflowservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0AE536C-B416-4342-8F1D-25861A0AD847}|Tests_StackOverflowAPI_Handler\\Tests_StackOverflowAPI_Handler.csproj|c:\\users\\vaxiz\\source\\repos\\stackoverflowapi_handler\\tests_stackoverflowapi_handler\\tests_validators.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0AE536C-B416-4342-8F1D-25861A0AD847}|Tests_StackOverflowAPI_Handler\\Tests_StackOverflowAPI_Handler.csproj|solutionrelative:tests_stackoverflowapi_handler\\tests_validators.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\VaxiZ\\source\\repos\\StackOverflowAPI_Handler\\StackOverflowAPI_Handler\\appsettings.json",
+              "RelativeDocumentMoniker": "StackOverflowAPI_Handler\\appsettings.json",
+              "ToolTip": "C:\\Users\\VaxiZ\\source\\repos\\StackOverflowAPI_Handler\\StackOverflowAPI_Handler\\appsettings.json",
+              "RelativeToolTip": "StackOverflowAPI_Handler\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-02T12:27:26.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\VaxiZ\\source\\repos\\StackOverflowAPI_Handler\\StackOverflowAPI_Handler\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "StackOverflowAPI_Handler\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\VaxiZ\\source\\repos\\StackOverflowAPI_Handler\\StackOverflowAPI_Handler\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "StackOverflowAPI_Handler\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAYwA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T12:25:56.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TagsController.cs",
+              "DocumentMoniker": "C:\\Users\\VaxiZ\\source\\repos\\StackOverflowAPI_Handler\\StackOverflowAPI_Handler\\Controllers\\TagsController.cs",
+              "RelativeDocumentMoniker": "StackOverflowAPI_Handler\\Controllers\\TagsController.cs",
+              "ToolTip": "C:\\Users\\VaxiZ\\source\\repos\\StackOverflowAPI_Handler\\StackOverflowAPI_Handler\\Controllers\\TagsController.cs",
+              "RelativeToolTip": "StackOverflowAPI_Handler\\Controllers\\TagsController.cs",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAswF0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T11:06:41.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Tests_StackOverflowService.cs",
+              "DocumentMoniker": "C:\\Users\\VaxiZ\\source\\repos\\StackOverflowAPI_Handler\\Tests_StackOverflowAPI_Handler\\Tests_StackOverflowService.cs",
+              "RelativeDocumentMoniker": "Tests_StackOverflowAPI_Handler\\Tests_StackOverflowService.cs",
+              "ToolTip": "C:\\Users\\VaxiZ\\source\\repos\\StackOverflowAPI_Handler\\Tests_StackOverflowAPI_Handler\\Tests_StackOverflowService.cs",
+              "RelativeToolTip": "Tests_StackOverflowAPI_Handler\\Tests_StackOverflowService.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAIwEYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-30T15:42:12.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StackOverflowService.cs",
+              "DocumentMoniker": "C:\\Users\\VaxiZ\\source\\repos\\StackOverflowAPI_Handler\\StackOverflowAPI_Handler\\Classes\\StackOverflowService.cs",
+              "RelativeDocumentMoniker": "StackOverflowAPI_Handler\\Classes\\StackOverflowService.cs",
+              "ToolTip": "C:\\Users\\VaxiZ\\source\\repos\\StackOverflowAPI_Handler\\StackOverflowAPI_Handler\\Classes\\StackOverflowService.cs",
+              "RelativeToolTip": "StackOverflowAPI_Handler\\Classes\\StackOverflowService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAH8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T00:39:39.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Tests_Validators.cs",
+              "DocumentMoniker": "C:\\Users\\VaxiZ\\source\\repos\\StackOverflowAPI_Handler\\Tests_StackOverflowAPI_Handler\\Tests_Validators.cs",
+              "RelativeDocumentMoniker": "Tests_StackOverflowAPI_Handler\\Tests_Validators.cs",
+              "ToolTip": "C:\\Users\\VaxiZ\\source\\repos\\StackOverflowAPI_Handler\\Tests_StackOverflowAPI_Handler\\Tests_Validators.cs",
+              "RelativeToolTip": "Tests_StackOverflowAPI_Handler\\Tests_Validators.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T10:37:32.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Validators.cs",
+              "DocumentMoniker": "C:\\Users\\VaxiZ\\source\\repos\\StackOverflowAPI_Handler\\StackOverflowAPI_Handler\\Classes\\Validators.cs",
+              "RelativeDocumentMoniker": "StackOverflowAPI_Handler\\Classes\\Validators.cs",
+              "ToolTip": "C:\\Users\\VaxiZ\\source\\repos\\StackOverflowAPI_Handler\\StackOverflowAPI_Handler\\Classes\\Validators.cs",
+              "RelativeToolTip": "StackOverflowAPI_Handler\\Classes\\Validators.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAswE0AAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T10:37:26.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\VaxiZ\\source\\repos\\StackOverflowAPI_Handler\\StackOverflowAPI_Handler\\Classes\\Program.cs",
+              "RelativeDocumentMoniker": "StackOverflowAPI_Handler\\Classes\\Program.cs",
+              "ToolTip": "C:\\Users\\VaxiZ\\source\\repos\\StackOverflowAPI_Handler\\StackOverflowAPI_Handler\\Classes\\Program.cs",
+              "RelativeToolTip": "StackOverflowAPI_Handler\\Classes\\Program.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAADwv0QAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T00:37:40.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Tag.cs",
+              "DocumentMoniker": "C:\\Users\\VaxiZ\\source\\repos\\StackOverflowAPI_Handler\\StackOverflowAPI_Handler\\Properties\\Tag.cs",
+              "RelativeDocumentMoniker": "StackOverflowAPI_Handler\\Properties\\Tag.cs",
+              "ToolTip": "C:\\Users\\VaxiZ\\source\\repos\\StackOverflowAPI_Handler\\StackOverflowAPI_Handler\\Properties\\Tag.cs",
+              "RelativeToolTip": "StackOverflowAPI_Handler\\Properties\\Tag.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T15:51:14.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Flags.cs",
+              "DocumentMoniker": "C:\\Users\\VaxiZ\\source\\repos\\StackOverflowAPI_Handler\\StackOverflowAPI_Handler\\Classes\\Flags.cs",
+              "RelativeDocumentMoniker": "StackOverflowAPI_Handler\\Classes\\Flags.cs",
+              "ToolTip": "C:\\Users\\VaxiZ\\source\\repos\\StackOverflowAPI_Handler\\StackOverflowAPI_Handler\\Classes\\Flags.cs",
+              "RelativeToolTip": "StackOverflowAPI_Handler\\Classes\\Flags.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T15:13:09.93Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "kktxkNxaVxsZls21+GGd3oSeK9jGtZR/dJrjDK/1Wpo=",
+  "Source": "StackOverflowAPI_Handler",
+  "BasePath": "_content/StackOverflowAPI_Handler",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

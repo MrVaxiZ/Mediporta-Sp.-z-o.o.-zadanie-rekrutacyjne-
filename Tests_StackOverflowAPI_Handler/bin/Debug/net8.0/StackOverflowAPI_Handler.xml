@@ -1,0 +1,173 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>StackOverflowAPI_Handler</name>
+    </assembly>
+    <members>
+        <member name="T:StackOverflowAPI_Handler.Classes.Flags">
+            <summary>
+            Class with flags that determine whether something failed or was success
+            </summary>
+        </member>
+        <member name="T:StackOverflowAPI_Handler.Classes.StackOverflowService">
+            <summary>
+            Service class for interacting with the Stack Overflow API to fetch tags and manage them in a local database.
+            </summary>
+        </member>
+        <member name="M:StackOverflowAPI_Handler.Classes.StackOverflowService.#ctor(StackOverflowAPI_Handler.Data.ApplicationDbContext,System.Net.Http.IHttpClientFactory,Microsoft.Extensions.Logging.ILogger{StackOverflowAPI_Handler.Classes.StackOverflowService})">
+            <summary>
+            Initializes a new instance of the StackOverflowService.
+            </summary>
+            <param name="context">The database context for accessing the local database.</param>
+            <param name="httpClientFactory">Factory for creating HttpClient instances.</param>
+            <param name="logger">Logger for logging messages.</param>
+        </member>
+        <member name="M:StackOverflowAPI_Handler.Classes.StackOverflowService.GetTagsFromDatabaseAsync">
+            <summary>
+            Retrieves all tags from the local database.
+            </summary>
+            <returns>A task that represents the asynchronous operation. The task result contains an enumeration of tags.</returns>
+        </member>
+        <member name="M:StackOverflowAPI_Handler.Classes.StackOverflowService.SaveDataToDataBase(StackOverflowAPI_Handler.Data.ApplicationDbContext)">
+            <summary>
+            Saves given ApplicationDbContext to the database
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:StackOverflowAPI_Handler.Classes.StackOverflowService.FetchTagsFromStackOverflowAsync">
+            <summary>
+            Fetches tags from the Stack Overflow API and updates the local database.
+            Ensures that a maximum of 1000 tags are fetched and stored.
+            </summary>
+            <returns>A task that represents the asynchronous operation.</returns>
+        </member>
+        <member name="M:StackOverflowAPI_Handler.Classes.StackOverflowService.RefreshDatabaseAsync">
+            <summary>
+            Clears all tags from the database and fetches them anew from the Stack Overflow API.
+            </summary>
+            <returns>A task that represents the asynchronous operation.</returns>
+        </member>
+        <member name="M:StackOverflowAPI_Handler.Classes.Validators.ValidatePagination(System.Int32,System.Int32,System.Collections.Generic.IEnumerable{StackOverflowAPI_Handler.Properties.Tag})">
+            <summary>
+            Validates pagination parameters, ensuring that the page and pageSize are positive
+            and that the requested page exists based on the total number of items.
+            </summary>
+            <param name="page">The requested page number.</param>
+            <param name="pageSize">The number of items per page.</param>
+            <param name="tags">The collection of tags to paginate.</param>
+            <returns>true if the pagination parameters are valid; otherwise, false.</returns>
+        </member>
+        <member name="M:StackOverflowAPI_Handler.Classes.Validators.ValidateSortDirection(System.String)">
+            <summary>
+            Validates sort direction.
+            </summary>
+            <param name="direction">The sort direction to validate.</param>
+            <returns>true if the direction is either "asc" or "desc"; otherwise, false.</returns>
+        </member>
+        <member name="M:StackOverflowAPI_Handler.Classes.Validators.ValidateTagsSortBy(System.String)">
+            <summary>
+            Validates the sort by parameter for tags.
+            </summary>
+            <param name="sortBy">The field name to sort by.</param>
+            <returns>true if the sortBy parameter is one of the predefined fields; otherwise, false.</returns>
+        </member>
+        <member name="M:StackOverflowAPI_Handler.Classes.Validators.ValidateGetTagsParameters(System.String,System.String,System.Int32,System.Int32,System.Collections.Generic.IEnumerable{StackOverflowAPI_Handler.Properties.Tag})">
+            <summary>
+            Validates all parameters for the TagsController.Get method.
+            </summary>
+            <param name="sortBy">The field to sort by.</param>
+            <param name="direction">The direction of sorting.</param>
+            <param name="page">The page number for pagination.</param>
+            <param name="pageSize">The size of each page.</param>
+            <returns>
+            A tuple where Item1 indicates whether the validation succeeded, 
+            and Item2 contains the error message if the validation failed.
+            </returns>
+        </member>
+        <member name="T:StackOverflowAPI_Handler.Controllers.TagsController">
+            <summary>
+            Controller for handling tag-related requests in an ASP.NET Core application.
+            Utilizes services to interact with Stack Overflow's API and a local database.
+            </summary>
+        </member>
+        <member name="M:StackOverflowAPI_Handler.Controllers.TagsController.#ctor(StackOverflowAPI_Handler.Classes.StackOverflowService,Microsoft.Extensions.Logging.ILogger{StackOverflowAPI_Handler.Controllers.TagsController})">
+            <summary>
+            Constructs a new instance of the TagsController.
+            </summary>
+            <param name="service">The service used to interact with Stack Overflow's API and the database.</param>
+            <param name="logger">The logger for logging information and warnings.</param>
+        </member>
+        <member name="M:StackOverflowAPI_Handler.Controllers.TagsController.Get(System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            Retrieves a paginated list of tags, optionally sorted by a specified field and direction.
+            </summary>
+            <param name="sortBy">The field to sort by.</param>
+            <param name="direction">The direction of sorting. Can be "asc" for ascending or "desc" for descending.</param>
+            <param name="page">The page number to return.</param>
+            <param name="pageSize">The number of items per page.</param>
+            <returns>An IActionResult containing the paginated list of tags.</returns>
+        </member>
+        <member name="M:StackOverflowAPI_Handler.Controllers.TagsController.Refresh">
+            <summary>
+            Initiates a refresh of the tags by fetching updated data from Stack Overflow's API.
+            </summary>
+            <returns>An IActionResult indicating the success or failure of the refresh operation.</returns>
+        </member>
+        <member name="T:StackOverflowAPI_Handler.Data.ApplicationDbContext">
+            <summary>
+            Application database context, managing the connection to the database and acting as a session with the underlying database.
+            It includes configurations for entities and their relationships, and provides access to entity sets.
+            </summary>
+        </member>
+        <member name="P:StackOverflowAPI_Handler.Data.ApplicationDbContext.Tags">
+            <summary>
+            Gets or sets the DbSet of Tags in the context. Represents a collection of tags that can be queried from the database.
+            </summary>
+        </member>
+        <member name="M:StackOverflowAPI_Handler.Data.ApplicationDbContext.#ctor(Microsoft.EntityFrameworkCore.DbContextOptions{StackOverflowAPI_Handler.Data.ApplicationDbContext})">
+            <summary>
+            Initializes a new instance of the ApplicationDbContext with the specified DbContextOptions.
+            DbContextOptions carries configuration information such as the connection string, database provider to use, etc.
+            </summary>
+            <param name="options">The options for this context.</param>
+        </member>
+        <member name="T:StackOverflowAPI_Handler.Migrations.Tags">
+            <inheritdoc />
+        </member>
+        <member name="M:StackOverflowAPI_Handler.Migrations.Tags.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:StackOverflowAPI_Handler.Migrations.Tags.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:StackOverflowAPI_Handler.Migrations.Tags.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:StackOverflowAPI_Handler.Properties.Tag">
+            <summary>
+            Represents a tag entity as used in Stack Overflow. 
+            Tags are keywords or labels that categorize questions with similar topics.
+            </summary>
+        </member>
+        <member name="P:StackOverflowAPI_Handler.Properties.Tag.Id">
+            <summary>
+            Gets or sets the identifier for the tag.
+            </summary>
+        </member>
+        <member name="P:StackOverflowAPI_Handler.Properties.Tag.Count">
+            <summary>
+            Gets or sets the count of how many times the tag has been applied to questions.
+            </summary>
+        </member>
+        <member name="P:StackOverflowAPI_Handler.Properties.Tag.ProcentItHasInSumOfAllTagsCount">
+            <summary>
+            Gets or sets the percentage of the tag count in relation to the sum of all tag counts.
+            </summary>
+        </member>
+        <member name="P:StackOverflowAPI_Handler.Properties.Tag.Name">
+            <summary>
+            Gets or sets the name of the tag.
+            </summary>
+        </member>
+    </members>
+</doc>

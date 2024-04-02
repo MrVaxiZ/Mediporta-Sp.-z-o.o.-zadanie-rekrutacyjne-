@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  stackoverflowapi_handler:
+    image: stackoverflowapi_handler:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8081"  # Map host port 8080 to container port 8081
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:8081  # Tell the application to listen on port 8081
